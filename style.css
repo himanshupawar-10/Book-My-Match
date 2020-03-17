@@ -16,7 +16,6 @@ a:hover{
 	cursor: pointer; 
 }
 header{
-	display: inline-flex;
 	margin: 0px;
 	font-size: 0.6em;
 	text-align: center;
@@ -33,11 +32,25 @@ h1{
 	margin: 0px 15px;
 	padding: 3px;
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 750px){
 	h1{
 		font-size: 1.5em;
-		margin: 0px 10px;
+		margin: 0px 5px;
 	}
+}
+@media only screen and (max-width: 510px){
+	h1{
+		font-size: 1.4em;
+		margin: 0px 3px;
+	}
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+}
+
 }
 #push{
 	margin-left: auto;
@@ -53,7 +66,7 @@ div{
 	background-image: url(https://wallpapercave.com/wp/wp3049884.jpg);
 	background-size: cover;
 }
-img{
+#ccc{
 	width: 100%;
 	max-width: 1000px;
 	height: 400px;
@@ -67,4 +80,16 @@ img:hover{
 }
 h2{
 	text-overflow: none;
+}
+#logo{
+	width: 90px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+}
+#home{
+	border-radius: 2.5px;
+	background-color: white;
+	box-shadow:2px;
 }
