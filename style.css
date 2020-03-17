@@ -56,18 +56,11 @@ div{
 }
 #ccc{
 	width: 100%;
-	max-width: 1000px;
+	max-width: 900px;
 	height: 400px;
 	padding: 0px;
 	border:0px 5px;
 	border-color: rgba(80,80,80,.5);
-
-}
-img:hover{
-	cursor: pointer;
-}
-h2{
-	text-overflow: none;
 }
 #logo{
 	width: 90px;
