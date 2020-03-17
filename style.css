@@ -110,7 +110,9 @@ li{
 }
 li:hover{
 	background-color: white;
+	box-shadow: 1px 1px 1px 1px #333333;
 }
 li:first-child:hover{
 	background-color: initial;
+	box-shadow:initial;
 }
