@@ -32,18 +32,6 @@ h1{
 	margin: 0px 15px;
 	padding: 3px;
 }
-@media only screen and (max-width: 750px){
-	h1{
-		font-size: 1.5em;
-		margin: 0px 5px;
-	}
-}
-@media only screen and (max-width: 510px){
-	h1{
-		font-size: 1.4em;
-		margin: 0px 3px;
-	}
-}
 ul{
 	margin: 0px;
 	padding: 0px;
@@ -91,5 +79,34 @@ h2{
 #home{
 	border-radius: 2.5px;
 	background-color: white;
-	box-shadow:2px;
+}
+@media only screen and (max-width: 750px){
+	h1{
+		font-size: 1.5em;
+		margin: 0px 5px;
+	}
+	#logo{
+	width: 75px;
+	height: 25px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+}
+}
+@media only screen and (max-width: 510px){
+	h1{
+		font-size: 1.4em;
+		margin: 0px 3px;
+	}
+	#logo{
+	width: 69px;
+	height: 23px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+}
+}
+li{
+	border-width: 2px;
+	border-color: white;
 }
