@@ -5,7 +5,7 @@ body{
 	margin:0px 0px;
 	padding: 0px 0px;
 	min-height: 100% ;
-	background: -moz-linear-gradient(left, blue, green);
+	background: -moz-linear-gradient(top, rgb(70,70,70),rgb(170,170,170)n);
 	background: -webkit-linear-gradient(top, rgb(70,70,70),rgb(170,170,170));
 }
 a{
@@ -21,16 +21,13 @@ header{
 	text-align: center;
 	font-weight: bold ; 
 	font-family: "calibri";
-	background: -moz-linear-gradient(right, rgb(100,100,100), blue);
+	background: -moz-linear-gradient(right, rgb(100,100,100), rgb(150,150,150));
 	background: -webkit-linear-gradient(right, rgb(100,100,100), rgb(150,150,150));
 	background-size: 100% 1000px;
 	position: fixed;
 	width: 100%;
 	min-width: 100px;
-}
-h1{
-	margin: 0px 15px;
-	padding: 3px;
+	z-index: 5;
 }
 ul{
 	margin: 0px;
@@ -38,7 +35,9 @@ ul{
 	list-style: none;
 	display: flex;
 }
-
+h1{
+	margin: 0px 15px;
+	padding: 3px;
 }
 #push{
 	margin-left: auto;
@@ -61,6 +60,13 @@ div{
 	padding: 0px;
 	border:0px 5px;
 	border-color: rgba(80,80,80,.5);
+	transition: max-width 0.5s;
+	-webkit-transition: max-width 0.5s;
+	filter: saturate(110%);
+}
+#ccc:hover{
+	max-width: 1000px;
+	filter: saturate(170%);
 }
 #logo{
 	width: 90px;
@@ -83,7 +89,7 @@ div{
 	padding: 0px;
 	margin: 0px;
 	vertical-align: middle;
-}
+	}
 }
 @media only screen and (max-width: 510px){
 	h1{
@@ -96,7 +102,7 @@ div{
 	padding: 0px;
 	margin: 0px;
 	vertical-align: middle;
-}
+	}
 }
 li{
 	border-radius: 2.5px;
@@ -108,4 +114,5 @@ li:hover{
 li:first-child:hover{
 	background-color: initial;
 	box-shadow:initial;
+	filter: saturate(300%);
 }
