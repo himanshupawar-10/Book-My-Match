@@ -5,8 +5,10 @@ body{
 	margin:0px 0px;
 	padding: 0px 0px;
 	min-height: 100% ;
+	background-attachment: scroll;
+	background-repeat:repeat;
 	background: -moz-linear-gradient(top, rgb(70,70,70),rgb(170,170,170)n);
-	background: -webkit-linear-gradient(top, rgb(70,70,70),rgb(170,170,170));
+	background: -webkit-linear-gradient(top, rgb(95,95,95),rgb(145,145,145),rgb(95,95,95));
 }
 a{
 	text-decoration: none;
@@ -46,12 +48,9 @@ h1{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	
-}
-div{
-
 	background-image: url(https://wallpapercave.com/wp/wp3049884.jpg);
 	background-size: cover;
+	
 }
 #ccc{
 	width: 100%;
@@ -115,4 +114,77 @@ li:first-child:hover{
 	background-color: initial;
 	box-shadow:initial;
 	filter: saturate(300%);
+}
+
+h2{
+	font-size: 1.3em;
+	padding: 2px;
+	text-align: center;
+	background-color: #bbbbbb;
+	margin: 50px 0px 0px 0px;
+	border-style: solid;
+	border-top-width: 2px;
+	border-left-width: 0px; border-right-width: 0px;
+	border-color: black;
+}
+table{
+	width: 100%;
+}
+caption{
+	font-family: "courier";
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+#querie{
+	position: center;
+	max-width: 500px;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	text-align: center;
+	padding: 5px;
+}
+h3{
+	text-align: center;
+}
+input{
+	margin: 5px;
+	width:80%;
+	border-radius: 4px;
+
+}
+input:hover{
+	box-shadow: 0px 2px skyblue;
+}
+#comment{
+	height:150px;
+}
+
+
+#contacts{
+	background-color: black;
+	padding: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+}
+#logo2{
+	width: 100px;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+h4{
+	color: white;
+	margin: 5px 0px 0px 40px;
+	padding-bottom: 10px;
+	font-size: 1.15em;
+}
+#ct{
+	color: white;
+	font-size: 10px;
+	margin:0px 0px 0px 40px;
 }

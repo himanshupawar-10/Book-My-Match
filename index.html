@@ -7,20 +7,72 @@
 <body>
 	<header>
 		<ul>
-			<li><a href="./index.html"><img id="logo" src="./titlepng.png"></li></a>
+			<li><a href="./index.html"><img id="logo" src="./titlepng.png"></a></li>
 			<li><a href="./index.html"><h1 id="home">Home</h1></a></li>
-			<li><a href=""><h1>About</h1></a></li>
+			<li><a href="#About"><h1>About</h1></a></li>
 			<li><a href=""><h1>Schedule</h1></a></li>
 			<li style="margin-left: auto;"><a href=""><h1>Admin Login</h1></a></li>
-			<li><a href=""><h1>Ask Queries</h1></a></li>
-			<li><a href=""><h1 id="push">Contacts</h1></a></li>
+			<li><a href="#querie"><h1>Ask Queries</h1></a></li>
+			<li><a href="#contacts"><h1 id="push">Contacts</h1></a></li>
 		</ul>
 	</header>
 
 	<div class="cover">
 		<img id="ccc" src="./2new.jpg">
 	</div>
-	
 
+	<div>
+		<h2>Upcoming Matches...</h2>
+		<table border="1" id="Today">
+			<caption>Today <span id="todate"></span></caption>
+			<tr>
+				<td>Match</td><td>Venue</td><td>Time</td><td>Available Seats</td><td>Book</td>
+			</tr>
+		</table>
+		<table border="1" id="Tomorrow">
+			<caption>Tomorrow</caption>
+			<tr>
+				<td>Match</td><td>Venue</td><td>Time</td><td>Available Seats</td><td>Book</td>
+			</tr>
+		</table>
+		<table border="1" id="Day-aft-to">
+			<caption>Day after tomorrow</caption>
+			<tr>
+				<td>Match</td><td>Venue</td><td>Time</td><td>Available Seats</td><td>Book</td>
+			</tr>
+		</table>
+
+	</div>
+
+	<div id="About">
+		<h2>About</h2>
+		<p>
+			
+		</p>
+
+	</div>
+
+	<div id="querie">
+		<h3>Queries/Review</h3>
+		<form method="POST">
+			<input id="qname" type="text" name="Name" placeholder="Your Name" required><br>
+			<input id="mail" type="email" name="email" placeholder="Your Email ID" required><br>
+			<input id="comment" type="text" name="comment" placeholder="Comment" required>
+			<input id="submit" type="submit">
+		</form>
+	</div>
+	
+	<div id="contacts">
+		<a href="./index.html"><img id="logo2" src="./titlepng.png"></a>
+		<h4>Contact Us</h4>
+		<p id="ct">
+			+91 8275064436    +91 7354647866<br>
+		</p>
+
+	</div>
+
+
+
+	<script src="./script.js"></script>
 </body>
 </html>
